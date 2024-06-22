@@ -2,3 +2,7 @@
 /data/*
 /weights/*
 /ViTPose/mmpose/.mmim/*
+
+
+!data/.gitkeep
+!weights/.gitkeep
