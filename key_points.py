@@ -6,7 +6,7 @@ from mmpose.apis import (inference_top_down_pose_model, init_pose_model,
 import torch
 # Use command line argument as the image path
 img = sys.argv[1]
-pose_config = 'ViTPose_small_ap10k_256x192.py'
+pose_config = 'configs/ViTPose_small_ap10k_256x192.py'
 pose_checkpoint = 'weights/ap10k.pth'
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
