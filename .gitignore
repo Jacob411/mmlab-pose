@@ -1,0 +1,4 @@
+/vitpose+_small.pth
+/data/*
+/weights/*
+/ViTPose/mmpose/.mmim/*
